@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ciyaarta numbers</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-900">
+    <div class="container mx-auto px-4 py-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-4">Ciyaarta numberska</h2>
+        <div id="winner" class="text-xl font-bold text-white mb-8"></div>
+        
+        <div class="max-w-md mx-auto">
+            <div class="bg-blue-800 rounded-lg shadow-lg p-6 mb-6">
+                <h3 class="text-xl font-semibold text-white mb-4">Ciyaaryahan 1</h3>
+                <button class="playBtn bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-md disabled:bg-gray-600 disabled:cursor-not-allowed" data-player="1">
+                    Riix
+                </button>
+                <p class="mt-4 text-white">Numberka: <span id="result1" class="font-bold">-</span></p>
+            </div>
+
+            <div class="bg-blue-800 rounded-lg shadow-lg p-6 mb-6">
+                <h3 class="text-xl font-semibold text-white mb-4">Ciyaaryahan 2</h3>
+                <button class="playBtn bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-md disabled:bg-gray-600 disabled:cursor-not-allowed" data-player="2">
+                    Riix
+                </button>
+                <p class="mt-4 text-white">Numberka: <span id="result2" class="font-bold">-</span></p>
+            </div>
+            
+            <button id="resetBtn" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-md">
+                Ciyaar Cusub
+            </button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html> 
