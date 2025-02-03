@@ -23,9 +23,9 @@ $(document).ready(function() {
         if (player1Played && player2Played) {
             let message = '';
             if (player1Score > player2Score) {
-                message = 'Ciyaaryahan 1 ayaa ku guuleystay! ❤️';
+                message = 'Ciyaaryahan 1 ayaa ku guuleystay ❤️';
             } else if (player2Score > player1Score) {
-                message = 'Ciyaaryahan 2 ayaa ku guuleystay! ❤️';
+                message = 'Ciyaaryahan 2 ayaa ku guuleystay ❤️';
             } else {
                 message = 'Waa la barbardhacay! 😊';
             }
